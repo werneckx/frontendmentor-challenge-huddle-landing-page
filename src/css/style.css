@@ -1,0 +1,140 @@
+html{
+    font-family: var(--body-text);
+    color: white;
+    font-size: 62.5%;
+}
+
+h1, h2, h3, h4, h5, h6, button {
+    font-family: var(--title);
+    color: white;
+}
+
+body {
+    background: var(--purple) url("../images/bg-desktop.svg") no-repeat center;
+    object-fit: contain;
+
+    max-height: 100vh;
+    padding: 70px;
+}
+
+/* HEADER */
+.header {
+    width: 100%;
+    height: auto;
+}
+
+.header .logo {
+    height: 52.5px;
+    margin-bottom: 70px;
+}
+
+/* MAIN */
+.main {
+    display: grid;
+    grid-template-columns: 2fr 500px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+.main .illustration-mockup {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+}
+
+.main .info{
+    width: 100%;
+    max-width: 500px;
+}
+
+.main .info .title{
+    font-size: 4rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.main .info .text{
+    font-size: 1.8rem;
+    font-weight: 200;
+    margin-bottom: 2.5rem;
+    line-height: 1.5;
+}
+
+.main .info .register{
+    background-color: white;
+    height: 55px;
+    width: 200px;
+    border-radius: 100px;
+    border: none;
+    color: var(--purple);
+    font-size: 1.7rem;
+    font-weight: 500;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.30);
+    cursor: pointer;
+}
+
+.main .info .register:hover{
+    background-color: var(--magenta);
+    color: white;
+    
+}
+
+/* FOOTER */
+
+.footer{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer .social-media{
+    display: flex;
+    justify-content: end;
+    gap: 1rem;
+}
+
+.footer .social-media .icon:hover{
+    color: var(--magenta);
+    border: 1px solid var(--magenta);
+
+}
+
+.footer .social-media .icon {
+    font-size: 2.0rem;
+    width: 4rem;
+    aspect-ratio: 1 / 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.footer .attribution {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 15px 0;
+}
+
+.footer .attribution p, 
+.footer .attribution a{
+    color: white;
+    font-size: 1.2rem;
+}
+
+.footer .attribution a{
+    font-weight: 700;
+}
+
+.footer .attribution a:hover{
+    color: var(--magenta);
+}
+
