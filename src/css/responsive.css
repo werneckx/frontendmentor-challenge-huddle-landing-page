@@ -5,7 +5,7 @@
         min-width: max-content;
 
         min-height: 100vh;
-        padding: 0 75px;
+        padding: 0 7.5rem;
     }
 
     /* HEADER */
@@ -13,11 +13,11 @@
     .header {
         width: 100%;
         height: auto;
-        padding: 55px 0;
+        padding: 5.5rem 0;
     }
 
     .header .logo {
-        height: 65px;
+        height: 6.5rem;
     }
 
     /* MAIN */
@@ -26,7 +26,7 @@
         display: grid;
         grid-template-columns: minmax(0, 1fr);
         width: 100%;
-        margin: 50px 0;
+        margin: 5.0rem 0;
         justify-items: center;
     }
 
@@ -55,6 +55,6 @@
 
     .footer .social-media {
         justify-content: center;
-        margin-bottom: 60px;
+        margin-bottom: 6.0rem;
     }
 }
