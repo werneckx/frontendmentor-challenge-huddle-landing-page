@@ -2,7 +2,7 @@
     body {
         background: var(--purple) url("../images/bg-mobile.svg") no-repeat center;
         background-size: 100% auto;
-        min-width: max-content;
+        background-position: top;
 
         min-height: 100vh;
         padding: 0 7.5rem;

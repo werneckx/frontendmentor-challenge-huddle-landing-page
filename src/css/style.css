@@ -1,19 +1,26 @@
-html{
+html {
     font-family: var(--body-text);
     color: white;
     font-size: 62.5%;
 }
 
-h1, h2, h3, h4, h5, h6, button {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button {
     font-family: var(--title);
     color: white;
 }
 
 body {
     background: var(--purple) url("../images/bg-desktop.svg") no-repeat center;
-    object-fit: contain;
+    background-size: auto 100%;
+    background-position: 0%;
 
-    max-height: 100vh;
+    min-height: 100vh;
     padding: 70px;
 }
 
@@ -43,25 +50,25 @@ body {
     height: auto;
 }
 
-.main .info{
+.main .info {
     width: 100%;
     max-width: 500px;
 }
 
-.main .info .title{
+.main .info .title {
     font-size: 4rem;
     font-weight: 600;
     margin-bottom: 2rem;
 }
 
-.main .info .text{
+.main .info .text {
     font-size: 1.8rem;
     font-weight: 200;
     margin-bottom: 2.5rem;
     line-height: 1.5;
 }
 
-.main .info .register{
+.main .info .register {
     background-color: white;
     height: 55px;
     width: 200px;
@@ -74,15 +81,15 @@ body {
     cursor: pointer;
 }
 
-.main .info .register:hover{
+.main .info .register:hover {
     background-color: var(--magenta);
     color: white;
-    
+
 }
 
 /* FOOTER */
 
-.footer{
+.footer {
     width: 100%;
     margin-top: 30px;
     display: flex;
@@ -90,13 +97,13 @@ body {
     justify-content: center;
 }
 
-.footer .social-media{
+.footer .social-media {
     display: flex;
     justify-content: end;
     gap: 1rem;
 }
 
-.footer .social-media .icon:hover{
+.footer .social-media .icon:hover {
     color: var(--magenta);
     border: 1px solid var(--magenta);
 
@@ -110,7 +117,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
     color: white;
     border: 1px solid white;
     border-radius: 50%;
@@ -124,17 +131,16 @@ body {
     margin: 15px 0;
 }
 
-.footer .attribution p, 
-.footer .attribution a{
+.footer .attribution p,
+.footer .attribution a {
     color: white;
     font-size: 1.2rem;
 }
 
-.footer .attribution a{
+.footer .attribution a {
     font-weight: 700;
 }
 
-.footer .attribution a:hover{
+.footer .attribution a:hover {
     color: var(--magenta);
 }
-
