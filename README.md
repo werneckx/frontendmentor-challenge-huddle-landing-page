@@ -14,7 +14,6 @@ Esta é uma solução para o desafio [Huddle landing page with a single introduc
   * [Tecnologias utilizadas](#tecnologias-utilizadas)
   * [O que aprendi](#o-que-aprendi)
   * [Desenvolvimento contínuo](#desenvolvimento-contínuo)
-  * [Recursos úteis](#recursos-úteis)
   * [Colaboração com IA](#colaboração-com-ia)
 * [Autor](#autor)
 * [Agradecimentos](#agradecimentos)
@@ -30,16 +29,12 @@ Os usuários devem ser capazes de:
 
 ### Screenshot
 
-![Screenshot](./screenshot.jpg)
-
-Adicione uma captura de tela da sua solução. A maneira mais fácil de fazer isso é usar o Firefox para visualizar seu projeto, clicar com o botão direito na página e selecionar "Fazer uma captura de tela". Você pode escolher uma captura da página inteira ou apenas de uma parte específica.
-
-Como alternativa, você pode utilizar uma ferramenta como o [FireShot](https://getfireshot.com/). O FireShot possui uma opção gratuita, então não é necessário realizar uma compra.
+![Screenshot](./src/images/screenshot.gif)
 
 ### Links
 
-* **URL da solução:** Adicione aqui a URL da sua solução.
-* **URL do site publicado:** Adicione aqui a URL do seu site publicado.
+* **URL da solução:** [Acesse aqui](https://github.com/werneckx/frontendmentor-challenge-huddle-landing-page)
+* **URL do site publicado:** [Acesse aqui](https://werneckx.github.io/frontendmentor-challenge-huddle-landing-page/)
 
 ## Meu processo
 
@@ -65,13 +60,13 @@ Outro conceito importante foi o uso de `aspect-ratio` para garantir que os ícon
 
 ```css
 .footer .social-media .icon {
-    width: 4rem;
-    aspect-ratio: 1 / 1;
-    border-radius: 50%;
+  width: 4rem;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
 }
 ```
 
-Também trabalhei com **media queries** para adaptar o layout a diferentes tamanhos de tela e com estados `:hover` e `:focus-visible` para melhorar a interação e a acessibilidade.
+Também trabalhei com **media queries** para adaptar o layout a diferentes tamanhos de tela e com estados `:hover` para melhorar a interação e a acessibilidade.
 
 ### Desenvolvimento contínuo
 
@@ -84,13 +79,6 @@ Nos próximos projetos, pretendo continuar aprimorando meus conhecimentos em:
 * Organização e manutenção de CSS.
 * Animações e transições utilizando CSS.
 * Desenvolvimento de interfaces seguindo fielmente os designs fornecidos.
-
-### Recursos úteis
-
-* [MDN Web Docs](https://developer.mozilla.org/) — Utilizado como referência para conceitos de HTML e CSS.
-* [CSS-Tricks](https://css-tricks.com/) — Utilizado para consultar conceitos relacionados a CSS, Grid e Flexbox.
-* [Frontend Mentor](https://www.frontendmentor.io/) — Plataforma utilizada para o desafio e para praticar desenvolvimento de interfaces a partir de designs reais.
-* [Font Awesome](https://fontawesome.com/) — Utilizado para os ícones das redes sociais.
 
 ### Colaboração com IA
 
